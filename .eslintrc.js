@@ -23,7 +23,7 @@ module.exports = {
     'react',
   ],
   rules: {
-    indent: 'off',
+    'indent': 'off',
     'template-curly-spacing': 'off',
     'import/extensions': 0,
     'react/prop-types': 0,
@@ -55,6 +55,7 @@ module.exports = {
           '_text',
         ],
       },
+     
     ],
     'object-curly-newline': 0,
     'react/jsx-filename-extension': 0,

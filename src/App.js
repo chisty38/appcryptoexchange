@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
-
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
@@ -33,8 +32,7 @@ const App = () => (
         </div>
       </Layout>
       <div className="footer">
-        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021 Mainul Haque.
- <br />
+        <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021 Mainul Haque.<br />
           All rights reserved.
         </Typography.Title>
         <Space>
