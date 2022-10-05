@@ -38,9 +38,7 @@
       "react-app/jest"
     ]
   },
-  "engines": {
-    "node": "17.3.0"
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
